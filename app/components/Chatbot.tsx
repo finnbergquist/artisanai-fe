@@ -1,14 +1,14 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import { fetchMessages, sendMessage, editMessage, deleteMessage, newChat } from "./api"
+import { fetchMessages, sendMessage, editMessage, deleteMessage, newChat } from "../api"
 import { Button } from "@/app/components/ui/button"
 import { Card } from "@/app/components/ui/card"
 import { Input } from "@/app/components/ui/input"
 import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/app/components/ui/dialog"
-import { Message } from "./types"
+import { Message } from "../types"
 import MessageItem from "@/app/components/MessageItem"
-import { contextOptions } from "./constants"
+import { contextOptions } from "../constants"
 import OptionPanel from "@/app/components/OptionPanel"
 import MessageInput from "@/app/components/MessageInput"
 
